@@ -1,0 +1,9 @@
+#!/bin/bash
+# Blasts the map-catalog.json in the current directory to authoritative at ukids
+
+scp ./map-catalog.json ghunt@unleashkids.org:/var/www/d.iiab.io/content/OSM/vector-tiles/map-catalog.json
+ymd=$(date +%F)
+
+mkdir -p log
+cp ./map-catalog.json ./log/map-catalog-$ymd
+

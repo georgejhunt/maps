@@ -1,4 +1,5 @@
 #!/usr/bin/python3 
+# Read map catalog, create init.json setting zoom, lat-lon, add map to vector-map-idx.json
 # -*- coding: UTF-8 -*-
 
 import iiab.iiab_lib as iiab

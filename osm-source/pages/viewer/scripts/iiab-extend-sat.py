@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Download additional satellite tiles around a lat/lon, add to satellite sqlite mbtiles 
 # -*- coding: UTF-8 -*-
 
 # This instance of python_mbtiles/tile-dl.py was made specific to expand satellite
